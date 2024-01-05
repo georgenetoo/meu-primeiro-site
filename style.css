@@ -59,3 +59,40 @@ body {
     z-index: 2;
 
 }
+
+.linha-vertical-branca1 {
+    position: absolute;
+    background-color: white;
+    width: 4px;
+    height: 850px;
+    left: 30%;
+    top: 10.8%;
+
+}
+.linha-vertical-branca2 {
+    position: absolute;
+    background-color: white;
+    width: 4px;
+    height: 850px;
+    left: 70%;
+    top: 10.8%;
+}
+.carol img {
+    position: absolute;
+    left: 7.5%;
+    top: 12%;
+    width: auto;
+    height: 300px;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+.biografia {
+    position: absolute;
+    left: 3%;
+    top: 44%;
+    width: 500px;
+    height: 10px;
+    color: rgb(238, 14, 201);
+    font-family: cursive;
+}
