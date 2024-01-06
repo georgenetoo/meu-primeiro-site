@@ -1,13 +1,13 @@
 body {
-    background-color: #2ed8ee;
+    background: linear-gradient(to bottom right, #2ed8ee, #ee0e9e);
     color: #333;
-    font-family: 'Arial', sans-serif;
+    font-family: cursive;
     margin: 0;
     padding: 0;
 }
  
 header {
-    background-color:rgb(238, 14, 201);
+    background: linear-gradient(to bottom right, #ee0e9e, #2ed8ee);
     padding: 0px;
     text-align: center;
 }
@@ -91,15 +91,16 @@ header {
 }
 
 .botao-encomendas, .botao-cursos {
-    background-color: #3498db;
+    background-color: #3eb5fa;
     color: #fff;
     border: none;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
     border-radius: 8px;
+    font-family: cursive;
 }
 
 .botao-encomendas:hover, .botao-cursos:hover {
-    background-color: #2980b9;
+    background-color: #f886f2;
 }
