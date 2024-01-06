@@ -8,11 +8,11 @@ body {
     font-size: 12px;
     text-align:right;
     position: absolute;
-    top: 6.5%;
-    left: 72%;
+    top: 87%;
+    left: 57%;
     color: white;
     z-index: 2;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:cursive;
     font-weight: bold;
 }
 
@@ -80,7 +80,7 @@ body {
 .carol img {
     position: absolute;
     left: 7.5%;
-    top: 12%;
+    top: 15%;
     width: auto;
     height: 300px;
     border: 2px solid white;
@@ -89,10 +89,59 @@ body {
 
 .biografia {
     position: absolute;
-    left: 3%;
-    top: 44%;
+    left: 2%;
+    top: 50%;
     width: 500px;
     height: 10px;
-    color: rgb(238, 14, 201);
+    color: white;
     font-family: cursive;
+    font-weight: bold;
+}
+
+.cursos img {
+    position: absolute;
+    left: 79%;
+    top: 15%;
+    width: auto;
+    height: 300px;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+.biografia-cursos {
+    position: absolute;
+    left: 73%;
+    top: 50%;
+    width: 500px;
+    height: 10px;
+    color: white;
+    font-family: cursive;
+    font-weight: bold;
+}
+.encomendas {
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(224, 118, 207);
+    color: white;
+    border: 2px solid rgb(24, 217, 243);
+    border-radius: 8px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.matricular {
+    position: absolute;
+    left: 55%;
+    top: 50%;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(224, 118, 207);
+    color: white;
+    border: 2px solid rgb(24, 217, 243);
+    border-radius: 8px;
+    font-family: cursive;
+    font-weight: bold;
 }
