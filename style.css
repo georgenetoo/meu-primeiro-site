@@ -1,147 +1,104 @@
 body {
-    background-color: rgb(24, 217, 243);
-    color: rgb(238, 14, 201)
+    background-color: #2ed8ee;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+ 
+header {
+    background-color:rgb(238, 14, 201);
+    padding: 0px;
+    text-align: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 60px;
+    left: 5%;
+    height: auto;
+}
+
+.marca {
+    margin-left: 10px;
+    font-family: cursive;
+    color: white;
+}
+
+.linha-cabeçalho {
+    height: 5px;
+    background-color: #ffffff;
+}
+
+.conteudo-principal {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+}
+
+.imagem-perfil {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
 }
 
 .contato {
-    font-family: verdana;
-    font-size: 12px;
-    text-align:right;
-    position: absolute;
-    top: 87%;
-    left: 57%;
-    color: white;
-    z-index: 2;
-    font-family:cursive;
-    font-weight: bold;
+    font-size: 14px;
 }
 
-.retangulo-rosa {
-    position: absolute;
-    top: 0.3%;
-    left: 0%;
-    width: 100%;
-    height: 100px;
-    background-color: rgb(238, 14, 201);
-    z-index: 0;
-}
-.linha-horizontal-branca1 {
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    width: 100%;
-    height: 2.5px;
-    background-color: white;
-}
-.linha-horizontal-branca2 {
-    position: absolute;
-    top: 10.5%;
-    left: 0%;
-    width: 100%;
-    height: 3px;
-    background-color: white;
-}
-.logo img {
-    position: absolute;
-    left: 0.5%;
-    top: 1%;
-    width: 80px;
-    height: auto; 
-    z-index: 2;
-}
-.nome {
-    position: absolute;
-    color: white;
-    top: 0.8%;
-    left: 6.5%;
-    font-family: cursive;
-    font-weight: bold;
-    z-index: 2;
-
-}
-
-.linha-vertical-branca1 {
-    position: absolute;
-    background-color: white;
-    width: 4px;
-    height: 850px;
-    left: 30%;
-    top: 10.8%;
-
-}
-.linha-vertical-branca2 {
-    position: absolute;
-    background-color: white;
-    width: 4px;
-    height: 850px;
-    left: 70%;
-    top: 10.8%;
-}
-.carol img {
-    position: absolute;
-    left: 7.5%;
-    top: 15%;
-    width: auto;
-    height: 300px;
-    border: 2px solid white;
-    border-radius: 8px;
+.linha-horizontal {
+    border: 1px solid #ddd;
+    margin: 20px 0;
 }
 
 .biografia {
-    position: absolute;
-    left: 2%;
-    top: 50%;
-    width: 500px;
-    height: 10px;
-    color: white;
-    font-family: cursive;
-    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
-.cursos img {
-    position: absolute;
-    left: 79%;
-    top: 15%;
-    width: auto;
-    height: 300px;
-    border: 2px solid white;
+.cursos {
+    display: flex;
+    align-items: center;
+}
+
+.imagem-cursos {
+    width: 200px;
+    height: auto;
     border-radius: 8px;
+    margin-right: 20px;
 }
 
 .biografia-cursos {
-    position: absolute;
-    left: 73%;
-    top: 50%;
-    width: 500px;
-    height: 10px;
-    color: white;
-    font-family: cursive;
-    font-weight: bold;
-}
-.encomendas {
-    position: absolute;
-    left: 35%;
-    top: 50%;
-    width: 200px;
-    height: 100px;
-    background-color: rgb(224, 118, 207);
-    color: white;
-    border: 2px solid rgb(24, 217, 243);
-    border-radius: 8px;
-    font-family: cursive;
-    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
-.matricular {
-    position: absolute;
-    left: 55%;
-    top: 50%;
-    width: 200px;
-    height: 100px;
-    background-color: rgb(224, 118, 207);
-    color: white;
-    border: 2px solid rgb(24, 217, 243);
+.botões {
+    margin-top: 20px;
+}
+
+.botao-encomendas, .botao-cursos {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
     border-radius: 8px;
-    font-family: cursive;
-    font-weight: bold;
+}
+
+.botao-encomendas:hover, .botao-cursos:hover {
+    background-color: #2980b9;
 }
